@@ -13,9 +13,30 @@
 5	Венгерская нотация	Верблюжий, первая малая
 6	Змеиный стиль		-//-
 7	Верблюжий стиль		Змеиный стиль
-8	Змеиный стиль		Венгерская нотация
+8	
+Змеиный стиль		Венгерская нотация
 9	Венгерская нотация	Змеиный стиль
 10	Верблюжий, первая малая Венгерская нотация
 
 Как документировать код: См. https://www.stack.nl/~dimitri/doxygen/manual/docblocks.html
 раздел Examples
+sudo apt-get install doxygen
+doxygen -g
+изменить
+INPUT          = power.cpp
+
+Пример документации функции. Первая строчка обязательна!!!!
+/*! \file */ 
+#include <iostream>
+//! \fn Raise int to specific power
+/*!
+ \param base Integer to raise in specific power
+ \param power Power
+ \return result of operation
+*/
+int raisePower(int base, int power)
+
+
+doxygen Doxyfile
+cd html/
+firefox index.html

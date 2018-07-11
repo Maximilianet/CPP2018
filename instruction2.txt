@@ -6,17 +6,17 @@
 
 git checkout -b doxy
 git pull origin2 master
-sudo apt install diffuse
-git mergetool --tool=diffuse
 
-Windows: 
-скачать p4merge
-https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge
-git config --global mergetool.p4merge.path 'C:\Program Files\Perforce\p4merge.exe'
-git config --global merge.tool p4merge
-git mergetool
+Либо, вручную git status (посмотреть, какие файлы различаются) и в каждом файле выбрать нижние секции
+Сохранить, сделать коммит, пуш git push origin doxy
 
-разрешить конфликт, выбрав все из B (REMOTE)
-Сохранить, сделать коммит, пуш.
+   int myValue; //верблюжий первая маленькая
+   int MyValue; //верблюжий
+   int my_value; //через подчеркивание
+   int * pValue; //венгерская нотация
+   class CStream
+   {
+   }
 
-
+Сохранить, сделать коммит, пуш git push origin doxy
+   
