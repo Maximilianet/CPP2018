@@ -22,7 +22,7 @@
 раздел Examples
 sudo apt-get install doxygen
 doxygen -g
-изменить
+изменить в Doxyfile (строка 746)
 INPUT          = power.cpp
 
 Пример документации функции. Первая строчка обязательна!!!!
@@ -40,3 +40,4 @@ int raisePower(int base, int power)
 doxygen Doxyfile
 cd html/
 firefox index.html
+добавить нужные файлы (power.cpp) под систему контроля версий (add),с commit, push каждый в свой репозиторий.
