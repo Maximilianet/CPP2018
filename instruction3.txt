@@ -1,0 +1,12 @@
+Занятие 3 - шаблоны (паатерны) проектирования
+git clone https://github.com/imitrichev/CPP_COURSE.git
+\
+(шаблоны http://cpp-reference.ru/patterns)
+Шаблонный метод TemplateMethod.cpp
+Стратегия Strategy.cpp
+Абстрактная фабрика AbstractFactory.cpp
+Фабричный метод - с использованием статической функции базового классак FactoryMethod.cpp, с использованием фабрик FactoryMethod2.cpp
+Итератор Iterator.cpp
+
+Задание:
+Написать программу с использованием одного из шаблонов проектирования (по индивидуальным вариантам)
